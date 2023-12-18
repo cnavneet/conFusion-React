@@ -9,6 +9,11 @@ const store = ConfigureStore();
 
 class App extends Component {
 
+  /**
+   * Render method to render the component
+   * @throws {Error} If there is an error rendering the component
+   * @returns {JSX.Element} The rendered component
+   */
   render() {
     return ( 
       <Provider store={store}>
